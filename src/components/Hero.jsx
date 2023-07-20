@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="h-32 w-44 flex-1 text-center justify-center mt-10">
           <h1 className="text-7xl font-bold text-blue-500 mt-6 order-first md:order-last">SavingsSpot</h1>
-          <p className="text-1xl font-normal text-black mt-2">coupons for all</p>
+          <p className="text-1xl font-normal text-black mt-2    md:ml-72">coupons for all</p>
         </div>
       </div>
     </div>
