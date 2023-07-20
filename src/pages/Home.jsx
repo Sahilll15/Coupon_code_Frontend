@@ -31,6 +31,7 @@ const Home = () => {
     setSearchQuery(e.target.value);
   };
 
+  //copy to the clipboard
   const handleCopyCoupon = (couponCode) => {
     
     const existingCopiedCoupons = localStorage.getItem('copiedCoupons');
@@ -41,7 +42,7 @@ const Home = () => {
       navigator.clipboard.writeText(couponCode);
       copiedCoupons.push(couponCode);
       localStorage.setItem('copiedCoupons', JSON.stringify(copiedCoupons));
-      toast.success('Coupon copied to clipboard and added to localStorage');
+      toast.success('Coupon copied to clipboard and added to savedCoupons');
     } else {
      
       toast.info('Coupon is already in localStorage');
