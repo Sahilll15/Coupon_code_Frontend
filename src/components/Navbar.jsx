@@ -15,9 +15,8 @@ const Navbar = () => {
 
   const navItems = [
     { label: "Home", link: "/" },
-    { label: "Coupon", link: "#" },
-    { label: "Dashboard", link: "#" },
-    { label: "Projects", link: "#" },
+    { label: "Add Coupons", link: "/addcoupons" },
+    
   ];
 
   return (
